@@ -1,8 +1,13 @@
 ![](../telegram.png)
 # Telegram bot
+### readme.md
 привет всем, это мой первый **Markdown**
 
 привет </br> hi world! 
+
+~~зачеркнутый текст~~
+
+выделеннное `слово` в тексте
 
 > умная цитата (выделенный текст) </br>
 > /br мягкий перенос строки
@@ -13,7 +18,9 @@
    - ___полужирный курсив___  ***полужирный курсив***
 ---
 ```commandline
-pip install -r requirements.txt
+pip freeze > requirements.txt        (создание на основании проекта)
+pip install -r requirements.txt      (загрузка в проект)
+pip install -U -r requirements.txt   (обновление)
 ```
 ---
 ```python
