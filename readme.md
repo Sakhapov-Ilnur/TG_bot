@@ -1,9 +1,9 @@
-![](../telegram.png)
+![](telegram.png)
 # Telegram bot
 ### readme.md
 привет всем, это мой первый **Markdown**
 
-привет </br> hi world! 
+здесь мягкий перенос строки </br> hi world! 
 
 ~~зачеркнутый текст~~
 
@@ -19,7 +19,7 @@
 ---
 ```commandline
 pip freeze > requirements.txt        (создание на основании проекта)
-pip install -r requirements.txt      (загрузка в проект)
+pip install -r requirements.txt      (загрузка в проект всех модулей из requirements.txt)
 pip install -U -r requirements.txt   (обновление)
 ```
 ---
@@ -31,9 +31,9 @@ print(squared(10))
 ```
 ---
 
-| **col 1** |     col 2 |    col 3    |
-|-----------|----------:|:-----------:|
-| row 1     |         1 |   comment   |
-| row 2     |     22222 | comment com |
-| row 1     | 333333333 |   comment   |
+| col 1 |     col 2 |    col 3    |
+|:------|----------:|:-----------:|
+| row 1 |         1 |   comment   |
+| row 2 |     22222 | comment com |
+| row 3 | 333333333 |   comment   |
 
